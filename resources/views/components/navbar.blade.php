@@ -11,10 +11,16 @@
                     <a class="nav-link" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="{{url('/about')}}">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="{{url('/events')}}">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url('/my-events')}}">My Event</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url('/contact')}}">Contact</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
